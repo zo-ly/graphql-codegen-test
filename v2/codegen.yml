@@ -1,0 +1,11 @@
+overwrite: true
+schema: 'https://countries.trevorblades.com/'
+documents:
+  - '../*.graphql'
+generates:
+  ../types/v2.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+    config:
+      skipTypename: true

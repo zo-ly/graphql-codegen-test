@@ -1,0 +1,13 @@
+{
+  "name": "graphql-codegen-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "gen": "turbo run gen"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3",
+    "typescript": "^4.9.4"
+  }
+}

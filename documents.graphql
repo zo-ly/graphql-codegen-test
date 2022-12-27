@@ -1,0 +1,11 @@
+fragment Entity on _Entity {
+  ... on Language {
+    rtl
+  }
+}
+
+query {
+  _entities(representations: []) {
+    ... Entity
+  }
+}
